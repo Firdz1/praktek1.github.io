@@ -1,0 +1,50 @@
+/* Reset beberapa gaya default browser */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header h1, nav ul {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Gaya khusus */
+.content {
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
